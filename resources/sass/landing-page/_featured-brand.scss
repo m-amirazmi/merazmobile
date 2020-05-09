@@ -1,0 +1,40 @@
+#featured-brand {
+    text-align: center;
+    .featured-brand-title {
+        margin: 20px auto;
+        text-transform: uppercase;
+    }
+    .featured-brand-content {
+        .fbc-box {
+            position: relative;
+            height: 300px;
+            .fbc-img {
+                height: 100%;
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            .fbc-overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                background: #000;
+                opacity: 0.2;
+            }
+            .fbc-brand {
+                opacity: 1;
+                h4 {
+                    position: absolute;
+                    bottom: 0;
+                    font-weight: 700;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+$primary-color: #00e9e1;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+}
+@import "featured-image";
+@import "featured-brand";
+@import "brand-strip";
+@import "our-traits";
